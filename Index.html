@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>UTS-PW-5B</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--My Style-->
+    <link rel='stylesheet' href="css/index">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+    <!--Navbar Strat-->
+    <nav class="navbar">
+        <a href="http://localhost/web_statis/"
+        class="navbar-logo"><img src="img/logobg - Copy.png"></a>
+        <div class="navbar-nav">
+            <ul class="data-list">
+                <li class="active"><a href="http://localhost/web_statis/About">Tentang</a></li>
+                <li><a href="http://localhost/web_statis/aboutmenu">Menu</a></li>
+                <li><a href="http://localhost/web_statis/Kolaborasi.html">Kolaborasi</a></li>
+                <li><a href="http://localhost/web_statis/lokasi.html">Temui Kami</a></li>
+                <li><a href="http://localhost/web_statis/kontak">Hubungi Kami</li></a>
+            </ul>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+         <!-- Search Form start -->
+        <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+    <!-- Search Form end -->
+    <!--dropdown mulai-->
+    <div class="dropdown">
+        <button class="dropbtn"><i data-feather="user">Member</i>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="http://localhost/web_statis/register#">Daftar member</a>
+          <a href="http://localhost/web_statis/masukregis#">Masuk member</a>
+        </div>
+      </div> 
+    <!--dropdown selesai-->
+    <!--sidebar start-->
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+    
+        <div class="sidebar">
+            <img src="img/logoside.png" alt="">
+            <header>TUKUCUR</header>
+            <ul>
+                <li><a href="#"><i class="fa fa-qrcode"></i>Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+                <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+                <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+                <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+                <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+    <!--sidebar end-->
+    </nav>
+    <!--Navbar End-->
+    <!-- Hero Section -->
+    <div class="header">
+        <div class="des-header">
+            <h1>TOKO KOPI TUKU</h1>
+            <h5>Halo Tetangga! Sudah sedia</h5>
+            <h2>#TukudiRumah?</h2>
+            <p>Nikmati tuku dengan biji kopi pilihan terbaik.</p>
+            <a href="https://tuku.coffee/" class="btn">Kunjungi Kami</a>
+        </div>
+
+        <div class="video">
+            <video id="bg-video"  autoplay muted loop>
+                <source src="img/bg-video.mp4" type="video/mp4"/>
+            </video>
+        </div>
+    </div>
+    <!--Hero section end-->
+    <!--About section start-->
+    <section id="about" class="about">
+        <h2><span>Our</span> Story</h2>
+        <div class="row">
+        <div class="about-img">
+        <img src="img/news14.jpg" alt="Tentang Kami">
+        </div>
+        <div class="content">
+            <p> Berdiri sejak tahun 2015, Kopi Tuku adalah salah satu gerai kopi yang sempat 
+                pernah dikunjungi dan dinikmati oleh Presiden Joko Widodo bersama keluarga pada 
+                tahun 2017 lalu. Kala itu, Presiden Jokowi memesan Kopi Susu Tetangga dan menjadi 
+                viral. <br> <br>Hingga saat ini, gerai Toko Kopi Tuku seakan tidak pernah sepi akan pengunjung. 
+                Tentu saja rahasia kesuksesan tersebut tidak serta merta karena sempat viral.
+                Melainkan, brand kopi lokal tersebut tidak akan menjadi besar seperti sekarang ini tanpa
+                kegigihan dan keuletan dari sang founder, Andanu Prasetyo. Menurut cerita dari Tyo, sapaan 
+                akrabnya, Kopi Tuku ini bukanlah bisnis pertama yang dijalaninya. Kala melakukan tugas 
+                penelitian tentang kopi saat kuliah di tahun 2010, ia pernah menjalani bisnis distro dengan 
+                sang kakak. Kemudian banting stir menjadi seorang penjual kopi susu dengan membuka sebuah kafe 
+                bernama Toodz House. <br><br>
+                Semenjak melakukan tugas kuliah tersebut, Tyo menjadi semakin 
+                tertarik untuk mendalami bisnis kafe dan kopi. Hingga akhirnya, ia ingin memberikan kontribusi 
+                lebih besar terhadap industri kopi yang tengah digelutinya tersebut. Tyo juga mengaku sempat 
+                melakukan analisa budaya mengonsumsi kopi oleh masyarakat saat tinggal di negeri orang dan juga 
+                Yogyakarta.</p>
+            </div>
+            </div>
+            <a href="http://localhost/web%20statis%20-%20Fitri/About#" class="selanjutnya">Selengkapnya  <i data-feather="chevron-right"></i></a>
+        </section>
+    <!--About section end-->
+
+    <!--Card mulai-->
+    <h2 class="News"><span>Tuku</span>News</h2>
+    <p class="informasi">Dapatkan berita terbaru dan informasi dari kami!</p> 
+    <div class="bg-card">
+        <a href="https://wartaekonomi.co.id/read510189/founder-toko-kopi-tuku-andanu-prasetyo-ciptakan-kopi-susu-favorit-masyarakat-hingga-punya-40-kedai-kopi">
+        <div class="card">
+            <div class="gambar-card">
+                <img src="img/news8.jpeg" alt="">
+            </div>
+            <div class="des-card">
+                <h2>Founder Toko Kopi TUKU Andanu Prasetyo, Ciptakan Kopi Susu Favorit Masyarakat Hingga Punya 40 Kedai Kopi</h2>
+                <p>Andanu Prasetyo merupakan pemilik rantai Toko Kopi TUKU. Pria berusia 34 tahun ini sudah mendirikan TUKU sejak 
+                    tahun 2015, empat tahun sejak lulus kuliah dari Prasetya Mulya jurusan Manajemen Bisnis.</p>
+            </div>
+        </div>
+        </a>
+        <a href="https://entrepreneur.bisnis.com/read/20230615/88/1665711/strategi-bisnis-toko-kopi-tuku-sukses-tanpa-kemitraan">
+        <div class="card">
+            <div class="gambar-card">
+                <img src="img/kisah.jpeg" alt="">
+            </div>
+            <div class="des-card">
+                <h2>Strategi Bisnis Toko Kopi Tuku, Sukses Tanpa Kemitraan</h2>
+                <p>Kunjungan Presiden Joko Widodo pada 2017 silam membawa berkah tersendiri bagi Toko Kopi Tuku. </p>
+            </div>
+        </div>
+        </a>
+        <a href="https://surabaya.tribunnews.com/2022/07/06/inovasikan-cita-rasa-kopi-lewat-es-kopi-panas-di-kopi-tuku-spbu-bp-merr-surabaya">
+        <div class="card">
+            <div class="gambar-card">
+                <img src="img/news9.jpeg" alt="">
+            </div>
+            <div class="des-card">
+                <h2>Toyota Rangga dan Kopi Tuku Tampil di Japan Mobility Show 2023</h2>
+                <p>Mobil konsep niaga Toyota Rangga yang ditampilkan Toyota Astra 
+                Motor pada Japan Mobility Show 2023 di Tokyo, Jepang, membawa jenama Toko Kopi Tuku. Mobil purwarupa tersebut tampil sebagai kedai kopi berjalan dinamai TUKULILING.</p>
+            </div>
+        </div>
+        </a>
+        <a href="https://surabaya.tribunnews.com/2022/07/06/inovasikan-cita-rasa-kopi-lewat-es-kopi-panas-di-kopi-tuku-spbu-bp-merr-surabaya">
+        <div class="card">
+            <div class="gambar-card">
+                <img src="img/news11.jpeg" alt="">
+            </div>
+            <div class="des-card">
+                <h2>Inovasikan Cita Rasa Kopi Lewat Es Kopi Panas di Kopi Tuku SPBU bp-MERR Surabaya</h2>
+                <p>Es Kopi Panas merupakan nama es kopi yang kerap menjadi perhatian pengunjung outlet Kopi Tuku.
+                    Namun, nama tersebut ternyata merupakan singkatan dari kopi pakai Nanas yang merupakan 
+                    inovasi Brand minuman pelopor es kopi susu dengan gula aren dari Jakarta Selatan ini.</p>
+            </div>
+        </div>
+        </a>
+        <a href="https://bisnis.tempo.co/read/1427494/pipiltin-cocoa-kopi-tuku-dan-pos-indonesia-luncurkan-kartu-pos-siap-seduh">
+        <div class="card">
+            <div class="gambar-card">
+                <img src="img/news12.jpeg" alt="">
+            </div>
+            <div class="des-card">
+                <h2>Pipiltin Cocoa, Kopi Tuku dan Pos Indonesia Luncurkan Kartu Pos Siap Seduh</h2>
+                <p>Pipiltin Cocoa berkolaborasi dengan Toko Kopi Tuku dan PT Pos Indonesia 
+                    (Persero) baru-baru ini meluncurkan produk terbarunya. Kerja sama dua 
+                    brand lokal itu untuk mempromosikan beragam varian cokelat dan kopi dari 
+                    berbagai daerah di Indonesia dalam bentuk kemasan unik berupa kartu pos siap seduh.</p>
+            </div>
+        </div>
+        </a>
+        <a href="https://www.liputan6.com/lifestyle/read/5368224/gelas-plastik-daur-ulang-ramai-dikeluhkan-di-medsos-toko-kopi-tuku-janji-berbenah">
+        <div class="card">
+            <div class="gambar-card">
+                <img src="img/news10.jpeg" alt="">
+            </div>
+            <div class="des-card">
+                <h2>Gelas Plastik Daur Ulang Ramai Dikeluhkan di Medsos, Toko Kopi Tuku Janji Berbenah</h2>
+                <p>Sampah plastik sekali pakai telah jadi masalah menahun di Indonesia. Sebagai bagian 
+                    dari solusi, pemakaiannya telah berusaha ditekan berbagai pelaku bisnis, termasuk Toko Kopi Tuku.</p>
+            </div>
+        </div>
+        </a>
+    </div>
+    <!--Card selesai-->
+    <!--Testimoni mulai-->
+    <div class="testimonials">
+        <div class="inner">
+            <h2 class="tuku">Testimoni</h2>
+            <p class="tetangga">Agar lebih dekat dengan tetangga</p>
+            <div class="border"></div>
+
+
+            <div class="row-review">
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/testi1.jpeg_v=1508330543" alt="">
+                        <div class="name">Tissa Kemala</div>
+                        <div class="testimonial-stars">
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star"></i>
+                            <i data-feather="star"></i>
+                        </div>
+                        <p>Udah lah kalau ini nulis apa juga bingung yg jelas aku kalau kesini ya cuma beli earl grey milk tea aja karena enak banget. Se enak itu dan g eneg. Pas semuaaaa!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/testi3.jpg_v=1535888999" alt="">
+                        <div class="name">Isabella Chandra</div>
+                        <div class="testimonial-stars">
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                        </div>
+                        <p>Es kopi susu tetangga ( no sugar) @17rb
+                            Kopi tuku rasanya bold dan creamy. Pokoknya pas buat my tastebud. Enak sih, aku suka.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/testi4.jpg_v=1552113482" alt="">
+                        <div class="name">inggie @makandll</div>
+                        <div class="testimonial-stars">
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                            <i data-feather="star" class="star-full"></i>
+                        </div>
+                        <p>Salah satu pioneer kopi susu yang sampe sekarang kualitas rasa nya gak 
+                            menurun! Kopinya cukup kuat nih jadi hati-hati buat yang gak biasa ngopi. 
+                            Cabang ini cozy banget dan instagramable. Buka dari pagi juga.</p>
+                    </div>
+                </div>
+            </div>
+    <!--Testimoni selesai-->
+    
+    
+    <!--Footer start-->
+    <!--Footer mulai-->
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/tokokopituku/?hl=id"><i data-feather="instagram"></i></a>
+            <a href="https://www.linkedin.com/company/karyatetanggatuku/"><i data-feather="linkedin"></i></a>
+            <a href="https://www.facebook.com/p/TUKU-100070921154404/"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="http://localhost/web_statis/About">Tentang</a>
+            <a href="http://localhost/web_statis/aboutmenu">Menu</a>
+            <a href="http://localhost/web_statis/Kolaborasi.html">Kolaborasi</a>
+            <a href="http://localhost/web_statis/lokasi.html">Temui Kami</a>
+            <a href="http://localhost/web_statis/kontak">Kontak</a>
+        </div>
+        <div class="creadit">
+            <p>Created by <a href="">Fitri Fajriyah Ashari - 11210251000128 - 5B Ilmu Perpustakaan</a>. &copy; 2023.</p>
+        </div>
+    </footer>
+    <!--Footer selesai-->
+
+    <!--Feather Icons-->
+    <script>
+        feather.replace();
+      </script>
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
