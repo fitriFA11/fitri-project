@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>UTS-PW-5B</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--My Style-->
+    <link rel='stylesheet' href="css/AboutSejarah.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+        <!--Navbar Strat-->
+        <nav class="navbar">
+            <a href="http://localhost/web_statis/Index.html.html"
+            class="navbar-logo"><img src="img/logobg - Copy.png"></a>
+            <div class="navbar-nav">
+                <ul class="data-list">
+                <li class="active"><a href="http://localhost/web_statis/About">Tentang</a></li>
+                <li><a href="http://localhost/web_statis/aboutmenu">Menu</a></li>
+                <li><a href="http://localhost/web_statis/Kolaborasi.html">Kolaborasi</a></li>
+                <li><a href="http://localhost/web_statis/kontak">Hubungi Kami</li></a>
+                </ul>
+            </div>
+            <div class="navbar-extra">
+                <a href="#" id="search-button"><i data-feather="search"></i></a>
+                <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+            </div>
+             <!-- Search Form start -->
+            <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+            </div>
+        <!-- Search Form end -->
+        <!--sidebar start-->
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+        
+            <div class="sidebar">
+                <img src="img/logoside.png" alt="">
+                <header>TUKUCUR</header>
+                <ul>
+                    <li><a href="#"><i class="fa fa-qrcode"></i>Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+                    <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+                    <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+                    <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+                    <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+                </ul>
+            </div>
+    <!--sidebar end-->
+        </nav>
+    <!--Navbar End-->
+    <!-- Hero Section -->
+    <header class="video-header">
+        <video src="img/bg-pidio (1).mp4" autoplay loop playsinline muted type="video/mp4"></video>
+      </header>
+    <!--Hero section end-->
+    <!--About start-->
+      <main class="sejarah">
+        <div class="viewport-header">
+            <h1>#About <span>Tuku</span></h1>
+          </div>
+        <p>Sejatinya, misi Toko Kopi TUKU adalah meningkatkan konsumsi kopi di Indonesia. Berdasarkan data terakhir, konsumsi kopi Indonesia pada tahun 2018 mencapai 72 ton/tahun. Meski jumlahnya besar, Indonesia masih bergantung pada biji kopi impor. Hal ini sangat disayangkan, karena kopi asli Indonesia pun tak kalah nikmatnya. Impian TUKU Coffee adalah menjadi wadah bagi produsen kopi lokal untuk menggunakan 100% biji kopi lokal dalam bisnisnya.</p>
+        <p>Selain itu, Kopi Tuku mempunyai visi untuk mempersatukan pecinta kopi di Jakarta. Andanu Prasetyo, sapaan akrab Tyo, menilai terdapat kesenjangan yang cukup besar antara penikmat kopi instan dengan penikmat kopi ibu kota.. Ia menemukan bahwa kopi kemasan memiliki kandungan gula yang tinggi dan hal ini mempengaruhi faktor kesehatan. Sementara itu, harga kopi yang disajikan di kedai kopi masih cukup tinggi.</p>
+        <p>Tyo mulai terjun di dunia bisnis pada tahun 2005. Kala itu tyo memulia bisnisnya dari membuka distro baju. Setelah melalui proses yang panjang, akhirnya tyo sukses mendirikan restoran bernama Toodz House pada tahun 2010. Pengalamannya bergelut dalam industri kulinr khususnya kafe, membuat tyo mantap mendirikan kopi tuku di kawasan cipete, Jakarta Selatan. Kedai ini tergolong unik, lain dari yang lain. Jika toko Kope lainnya memiliki semua fasilitas mulai dari Internet hingga sofa yang nyaman, halaman yang luas, dan tempat parkir yang mudah, Kopi Tuku  tidak memiliki fasilitas tersebut. </p>
+        <p>Tyo menggemari bisnis kopi  bukan karena dia suka kopi, tapi karena dia punya ilmu membuat kopi. Saat menyeduh kopi  nikmat, Tyo menerima masukan dari para pecinta kopi dan menyeduhnya sesuai keinginan pelanggan. Kopi batch tasting ini dibanderol dengan harga Rp. 18.000 per gelas dan 1000 gelas dapat habis per harinya di setiap toko Tuku. Harga kopi Tuku cukup terjangkau dibandingkan kopi yang ditawarkan di kedai kopi lainnya. Mulai dari Rp 10.000. - 30.000. per cangkirnya, konsumen dapat menikmati  biji kopi Indonesia kualitas terbaik.</p>
+        <p>Pemilihan nama menu di Toko Kopi Tuku  cukup unik, misalnya salah satu menunya adalah Kopi Susu yang dibuat oleh tetangga. Nama ini pastinya unik dan membuat konsumen penasaran  untuk mencobanya. Penamaan ini terjadi tanpa  alasan tertentu. Namun Tyo punya banyak alasan untuk memberi nama  unik pada produknya: “Sebenarnya kopi disebut bebas gula, tapi kita sudah terbiasa dengan gula. Misalnya namanya Cappuccino tapi menggunakan gula. Kami pasti  protes, kami berusaha menciptakan nama produk yang tidak bisa dibantah oleh orang lain.</p>
+        <p> Pemilih Awalnya Tyo membutuhkan modal 500 juta untuk membuat Kopi Tuku. Uang ini digunakan untuk sewa akomodasi, renovasi dan kebutuhan peralatan lainnya. Sejumlah upaya telah ia lakukan untuk membesarkan bisnis kedai kopinya. Pertama ia melakukan riset dan analisis mengenai budaya konsumsi kopi masyarakat Indonesia. Faktanya ia melihat bahwa, konsumsi kopi di masyarakat masih rendah pasalnya kebanyakan dari mereka hanya menikmati kopi instan. Hal ini yang membuat Tyo yakin bahwa bisnis yang dirintis olehnya ini tidak hanya sekedar jualan kopi namun ingin memperkenalkan kekayanan kopi Indonesia. Kedua, ketika orang berlomba memasarkan produknya melalui media sosial, rupanya ini bukan menjadi fokus utamanya. Tyo mengaku belum pernah melakukan kegiatan pemasaran dalam bentuk apa pun. Menurutnya, jika perusahaannya ingin dikenal banyak orang, masyarakat hanya membutuhkan dua hal: produk dan konten yang bagus.. Ketiga, pengalaman konsumen adalah salah satu kunci kesuksesan, “mulai dari saat pelanggan masuk, musik klasik diputar, teko kopi dijajarkan, aroma kopi, sambutan ramah  kami, hingga harga yang kami tawarkan terjangkau, saya coba kendalikan semua aspeknya,” kata Tyo.</p>
+        <p> Saat ini Kopi Tuku  memiliki 4 cabang  di Cipete, Pasar Santa, Bintaro Sektor 1 dan satu toko yang hanya berjualan online. Pendapatan bulanan Kafe Tuku Kedang mencapai lebih dari Rp. 400 juta. Bagi Tyo, bisnis kopi di Jakarta  memiliki prospek yang besar jika bekerja keras dan benar-benar memberikan nilai  lebih bagi konsumen. Saat ini Kedai Kopi Tuku mampu menyediakan hingga 1000 cangkir kopi per hari.</p>
+      </main>
+     <!--About end-->
+     <!--Feather Icons-->
+  <script>
+    feather.replace();
+  </script>
+     <!--Java secction-->
+     <script src="js/about.js"></script>
+
+</body>
+</html>

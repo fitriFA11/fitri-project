@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>UTS-PW-5B</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--My Style-->
+    <link rel='stylesheet' href="css/sign in">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ <!--Navbar Strat-->
+ <nav class="navbar">
+    <a href="http://localhost/web_statis/Index.html.html"
+    class="navbar-logo"><img src="img/logobg - Copy.png"></a>
+    <div class="navbar-nav">
+        <ul class="data-list">
+            <li class="active"><a href="http://localhost/web_statis/About">Tentang</a></li>
+            <li><a href="http://localhost/web_statis/aboutmenu">Menu</a></li>
+            <li><a href="http://localhost/web_statis/Kolaborasi.html">Kolaborasi</a></li>
+            <li><a href="http://localhost/web_statis/lokasi.html">Temui Kami</a></li>
+            <li><a href="http://localhost/web_statis/kontak">Hubungi Kami</li></a>
+        </ul>
+    </div>
+    <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+     <!-- Search Form start -->
+    <div class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+<!-- Search Form end -->
+<!--dropdown start-->
+<div class="dropdown">
+    <button class="dropbtn"><i data-feather="user"></i>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="http://localhost/web_statis/register">Daftar member</a>
+      <a href="http://localhost/web_statis/masukregis#">Masuk member</a>
+    </div>
+  </div> 
+<!--dropdown end-->
+<!--sidebar start-->
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+    <div class="sidebar">
+        <img src="img/logoside.png" alt="">
+        <header>TUKUCUR</header>
+        <ul>
+            <li><a href="#"><i class="fa fa-qrcode"></i>Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+            <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+            <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+            <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+            <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+        </ul>
+    </div>
+<!--sidebar end-->
+ </nav>
+ <!--log in start-->
+ <form action="action_page.php">
+    <div class="container-regis">
+      <h1>Halo Keluarga <span> Tuku</span></h1>
+      <p>Temui aktivitasmu di tuku</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <hr>
+
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+  
+  <!--Feather Icons-->
+  <script>
+    feather.replace();
+  </script>
+</body>
