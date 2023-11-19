@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>UTS-PW-5B</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--My Style-->
+    <link rel='stylesheet' href="css/Menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="http://localhost/web_statis/Index.html.html"
+        class="navbar-logo"><img src="img/logobg - Copy.png"></a>
+        <div class="navbar-nav">
+            <ul class="data-list">
+                <li class="active"><a href="http://localhost/web_statis/About">Tentang</a></li>
+                <li><a href="http://localhost/web_statis/aboutmenu">Menu</a></li>
+                <li><a href="http://localhost/web_statis/Kolaborasi.html">Kolaborasi</a></li>
+                <li><a href="http://localhost/web_statis/lokasi.html">Temui Kami</a></li>
+                <li><a href="http://localhost/web_statis/kontak">Hubungi Kami</li></a>
+            </ul>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+<!--sidebar mulai-->
+<input type="checkbox" id="check">
+<label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+</label>
+
+<div class="sidebar">
+    <img src="img/logoside.png" alt="">
+    <header>TUKUCUR</header>
+    <ul>
+        <li><a href="#"><i class="fa fa-qrcode"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+        <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+        <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+        <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+        <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+        <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+    </ul>
+</div>
+<!--saidebar selesai-->
+    </nav>
+<!--Navbar selesai-->
+<!--Hero mulai-->
+<header class="video-header">
+    <video src="img/menu.mp4" autoplay loop playsinline muted type="video/mp4"></video>
+  </header>
+<!--Menu start-->
+<section class="menu" id="menu">
+    <div class="center-text">
+        <h3>Menu Tetangga <span>Tuku</span></h3>
+        <h2>Butuh kesegaran? Menu Kopi TUKU bisa jadi alternatif terbaik 
+            menikmati hari. Temukan menu terbaikmu di sini!</h2>
+    </div>
+<div class="menu-content">
+    <div class="box">
+        <div class="box-content">
+            <div class="box-img">
+                <img src="img/suskaramel.png">
+            </div>
+
+            <div class="box-text">
+                <h4>Kopi Caramel Machiato</h4>
+                <p>Nikmati kemanisannya seperti tetangga yang membeli.</p>
+                <h6>28K</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <div class="box-img">
+                <img src="img/suste.jpeg">
+            </div>
+
+            <div class="box-text">
+                <h4>Kopi Susu Tetangga</h4>
+                <p>Menu ini adalah yang paling diidam-idamnkan oleh para tetangga.</p>
+                <h6>20K</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <div class="box-img">
+                <img src="img/wanda.png">
+            </div>
+
+            <div class="box-text">
+                <h4>Es Teh Wanda</h4>
+                <p>Teh Jawa dengan jeli kelapa dan sentuhan rasa pandan. Segarnya berlipat ganda!</p>
+                <h6>17K</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <div class="box-img">
+                <img src="img/papermint.png">
+            </div>
+
+            <div class="box-text">
+                <h4>Kopi Pappermint Mocha</h4>
+                <p>Rasanya enak, perpaduan peppermint dengan mocha yang cocok buat sebagai teman di acara-acara.</p>
+                <h6>30K</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <div class="box-img">
+                <img src="img/latte.jpeg">
+            </div>
+
+            <div class="box-text">
+                <h4>Kopi Latte</h4>
+                <p>Kopi tuku rasanya bold dan creamy. Pokoknya pas buat my tastebud.</p>
+                <h6>25K</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <div class="box-img">
+                <img src="img/tuku.jpeg">
+            </div>
+
+            <div class="box-text">
+                <h4>Es Coklat</h4>
+                <p>Rasanya enak, nyoklat banget. Karena bagian atas dan bawah dikasih cairan coklat.</p>
+                <h6>25K</h6>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="box-btn">
+</div>
+</section>
+<!--Menu end-->
+<!--Produk start-->
+<section class="products" id="products">
+    <h2><span>Kopi Tuku </span>Dalam Bentuk Kemasan</h2>
+    <p class="item">Menemani tetangga tetap produktif dengan #TUKUDIRUMAH</p>
+    <div class="row">
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/kopi1.jpeg" alt="Product 1">
+            </div>
+            <div class="product-content">
+                <h3>Kopi Tetangga Blend</h3>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                </div>
+                <div class="product-price">IDR 50K <span>IDR 90K </span> </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/kopi2.jpeg" alt="Product 2">
+            </div>
+            <div class="product-content">
+                <h3>Kopi Bali Blend</h3>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star"></i>
+                </div>
+                <div class="product-price">IDR 50K <span>IDR 98K </span> </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/kopi3.jpeg" alt="Product 3">
+            </div>
+            <div class="product-content">
+                <h3>Kopi Ciung Wanara</h3>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                </div>
+                <div class="product-price">IDR 55K</div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/kopi4.jpeg" alt="Product 4">
+            </div>
+            <div class="product-content">
+                <h3>Kopi Solok</h3>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star"></i>
+                </div>
+                <div class="product-price">IDR 55K <span>IDR 98K</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/kopi7.jpeg" alt="Product 5">
+            </div>
+            <div class="product-content">
+                <h3>Kopi Gayo</h3>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                </div>
+                <div class="product-price">IDR 50K <span>IDR 98K</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-icons">
+                <a href="#"><i data-feather="shopping-cart"></i></a>
+                <a href="#"><i data-feather="eye"></i></a>
+            </div>
+            <div class="product-image">
+                <img src="img/kopi6.webp" alt="Product 6">
+            </div>
+            <div class="product-content">
+                <h3>Kopi Robusa Flores</h3>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star"></i>
+                </div>
+                <div class="product-price">IDR 70K <span>IDR 75K</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Produk secction end-->
+<!--Feather Icons-->
+<script>
+feather.replace();
+</script>
+</body>
+</html>
